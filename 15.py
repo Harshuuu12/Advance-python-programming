@@ -1,0 +1,10 @@
+# When will the else part of try-except-else be executed ? 
+
+#   The else part is executed when no exception occurs.
+#   Ex -: 
+try:
+    x = 10 / 0  
+except ZeroDivisionError:
+    print("Error: Division by zero") 
+else :
+    print("Your Question is Wrong",x)
